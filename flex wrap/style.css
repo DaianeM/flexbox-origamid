@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.item {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    background-color: darksalmon;
+}

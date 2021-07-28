@@ -5,7 +5,7 @@
 
 .container {
     display: flex;
-    max-width: 400px;
+    max-width: 360px;
     margin: 0 auto;
     border: 1px solid #ccc;
 }
@@ -20,4 +20,12 @@ h2 {
     margin: 5px;
     text-align: center;
     background-color: darksalmon;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
 }
